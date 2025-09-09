@@ -3,11 +3,11 @@ requires = ["setuptools"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "parse_d2l"
+name = "d2lparse"
 version = "0.1"
 description = "A command line tool to parse exported D2L grade/roster CSVs"
 authors = [{ name = "Aaron Ingalls" }]
 requires-python = ">=3.8"
 
 [project.scripts]
-parse_d2l = "parse_d2l.__main__:main"
+d2lparse = "d2lparse.__main__:main"
