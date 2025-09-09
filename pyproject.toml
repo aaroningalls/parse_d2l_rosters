@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "d2lparse"
-version = "0.1"
+version = "0.1.2"
 description = "A command line tool to parse exported D2L grade/roster CSVs"
 authors = [{ name = "Aaron Ingalls" }]
 requires-python = ">=3.8"
